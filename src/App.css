@@ -1,0 +1,122 @@
+body {
+    font-Family: Verdana !important;
+    background-color: rgb(247, 242, 246) !important;
+}
+
+.app-container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.alert-div{
+    position: fixed;
+    top: 0;
+    right: 2.5%;
+    width: 20%;
+}
+
+.header-component{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.transaction-balance{
+    margin-top: 30px;
+}
+
+.transaction-balance h6{
+    font-weight: bold
+}
+.transaction-balance h4{
+    font-weight: 550;
+}
+
+.transaction-board {
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px #888;
+}
+
+.transaction-board h6{
+    font-weight: bold;
+}
+
+.transaction-board .income-amount{
+    color: rgb(136, 238, 136);
+    line-height: 0.8;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.transaction-board .income-line{
+    border-right: 2px solid rgb(211, 208, 208, 0.8);
+}
+
+.transaction-board .expense-amount{
+    color: rgb(238, 30, 30);
+    line-height: 0.8;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.transaction-history{
+    margin-top: 30px;
+}
+
+.transaction-history h6{
+    font-weight: bold
+}
+
+.transaction-history .history-list{
+    margin-top: 7px;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.3);
+    padding-bottom: 0;
+}
+
+.transaction-history .history-list .left{
+    width: 50%;
+    text-align: left;
+}
+
+.transaction-history .history-list .right{
+    width: 50%;
+    text-align: right;
+}
+.transaction-history .show-button{
+    float: right;
+    margin-top: 5px;
+}
+
+.transaction-history .deleteBtnStyle{
+    color: rgb(238, 30, 30);
+    float: right;
+    font-size: 12px;
+}
+
+.transaction-history .editBtnStyle{
+    color: rgb(248, 175, 39);
+    font-size: 12px;
+    float: right;
+}
+
+.transaction-history .icons-span{
+    width: 100%;
+    padding-right: 15px;
+}
+
+.transaction-history .editBtnStyle:hover{
+    font-size: 14px;
+}
+.transaction-history .deleteBtnStyle :hover{
+    font-size: 14px;
+}
+.add-transaction{
+    margin-top: 30px;
+}
+
+.add-transaction h6{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
