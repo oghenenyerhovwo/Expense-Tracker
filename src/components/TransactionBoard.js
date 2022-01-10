@@ -17,7 +17,7 @@ const TransactionBoard = () => {
     useEffect(() => {
         setIncome(calculatedIncome)
         setExpenses(calculatedExpenses) 
-    }, [items])
+    }, [items, calculatedIncome, ]) 
     return (
         <div className="transaction-board">
             <ListGroup>

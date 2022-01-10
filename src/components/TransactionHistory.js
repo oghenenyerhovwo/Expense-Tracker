@@ -25,7 +25,7 @@ const TransactionHistory = () => {
             <ListGroup.Item 
                 key={_id}
                 className="history-list" 
-                style= {transactionType == "income" ? incomeStyle :expensesStyle }
+                style= {transactionType === "income" ? incomeStyle :expensesStyle }
             >
                 <Row>
                     <Col className="left"> {itemName} </Col>
