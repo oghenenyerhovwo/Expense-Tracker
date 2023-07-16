@@ -4,15 +4,17 @@ body {
 }
 
 .app-container {
-    width: 60%;
-    margin: 20px auto;
+    width: min(70%, 25rem);
+    margin: 1.2rem auto;
+    padding: 1rem;
 }
 
 .alert-div{
     position: fixed;
     top: 0;
-    right: 2.5%;
+    left: 0;
     width: 100%;
+    margin: 1rem;
 }
 
 .header-component{
