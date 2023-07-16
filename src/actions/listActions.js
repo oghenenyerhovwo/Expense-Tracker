@@ -26,7 +26,7 @@ const handleResponse = (dispatch, actionType, responseMessage, responseColor) =>
 
 export const getItems = () => dispatch => {
     axios
-      .get("https://my-expense-tracker-react-2.herokuapp.com/items/")
+      .get("https://expense-tracker-jr5w.onrender.com/items/")
       .then(res => {
         dispatch({
             type: GET_ITEMS,
@@ -40,7 +40,7 @@ export const getItems = () => dispatch => {
 
 export const addItem = (form) => dispatch => (
     axios
-      .post("https://my-expense-tracker-react-2.herokuapp.com/items/", form)
+      .post("https://expense-tracker-jr5w.onrender.com/items/", form)
       .then(res => {
         dispatch({
             type: ADD_ITEM,
@@ -55,7 +55,7 @@ export const addItem = (form) => dispatch => (
 
 export const updateItem = (form, _id) => dispatch => {
     axios
-      .put("https://my-expense-tracker-react-2.herokuapp.com/items/" + _id, form)
+      .put("https://expense-tracker-jr5w.onrender.com/items/" + _id, form)
       .then(res => {
         dispatch({
             type: UPDATE_ITEM,
@@ -73,7 +73,7 @@ export const updateItem = (form, _id) => dispatch => {
 
 export const deleteItem = (_id) => dispatch => { 
     axios
-        .delete("https://my-expense-tracker-react-2.herokuapp.com/items/" + _id)
+        .delete("https://expense-tracker-jr5w.onrender.com/items/" + _id)
         .then(res => {
             dispatch({
                 type: DELETE_ITEM,
